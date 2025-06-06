@@ -1,0 +1,13 @@
+[project]
+name = "notebooks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-community>=0.3.24",
+    "langchain-core>=0.3.64",
+    "langchain-google-genai>=2.1.5",
+    "pypdf>=5.6.0",
+    "streamlit>=1.45.1",
+]
